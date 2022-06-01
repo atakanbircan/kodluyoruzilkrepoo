@@ -4,9 +4,9 @@ public class Hipotenus {
         Scanner girdi=new Scanner(System.in);
         double kisaKenarA , kisaKenarB, uzunKenar;
         System.out.println("kısa kenar girin: ");
-        kisaKenarA=girdi.nextInt();
+        kisaKenarA=girdi.nextDouble();
         System.out.println("diğer kısa kenarı girin: ");
-        kisaKenarB=girdi.nextInt();
+        kisaKenarB=girdi.nextDouble();
 
         uzunKenar = Math.sqrt(Math.pow(kisaKenarA,2)+Math.pow(kisaKenarB,2));
         System.out.println("uzun kenar: "+uzunKenar);
